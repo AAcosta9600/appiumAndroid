@@ -1,0 +1,22 @@
+
+url: http://127.0.0.1:4723/wd/hub
+
+devices: 
+- name: LG Stylo 4
+  udid: LMQ710MS6149f233
+  platform: Android
+  platformVersion: 8.1.0
+  appPackage: com.lge.camera
+  appActivity: com.lge.camera.Camcorder
+
+- name: LG Stylo 4
+  udid: LMQ710MS6149f233
+  platform: Android
+  platformVersion: 8.1.0
+  appPackage: com.amazon.avod.thirdpartyclient
+  appActivity: com.amazon.avod.thirdpartyclient.LauncherActivity
+
+racks: 
+- name: rack1
+  udidPrimary: LMQ710MS6149f233
+  udidSeconday: LMQ710MS6149f233
